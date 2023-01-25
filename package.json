@@ -1,0 +1,52 @@
+{
+  "name": "@minimouli/navy",
+  "version": "2.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "local:prepare": "husky install",
+    "prod": "babel --extensions .ts ./src -d ./dist",
+    "dev": "tsc --build",
+    "dev:watch": "yarn run dev --watch",
+    "dev:force": "yarn run dev --force",
+    "lint": "eslint ./src --ext .ts",
+    "lint:fix": "yarn run lint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minimouli/moulinette-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/minimouli/moulinette-template/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "./dist"
+  ],
+  "dependencies": {
+    "@minimouli/framework": "^2.0.4",
+    "core-js": "^3.27.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.18.6",
+    "@commitlint/cli": "^17.4.0",
+    "@commitlint/config-conventional": "^17.4.0",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "chalk": "^5.2.0",
+    "eslint": "^8.31.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-unicorn": "^45.0.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "typescript": "^4.9.4"
+  },
+  "packageManager": "yarn@3.3.1"
+}

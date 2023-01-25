@@ -1,0 +1,9 @@
+{
+  "rootDir": "dist",
+  "binaries": {},
+  "suites": {
+    "default": [
+      "example.suite.js"
+    ]
+  }
+}
