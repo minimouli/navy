@@ -1,9 +1,11 @@
 {
   "rootDir": "dist",
-  "binaries": {},
+  "binaries": {
+    "navy": "navy"
+  },
   "suites": {
     "default": [
-      "example.suite.js"
+      "basic.suite.js"
     ]
   }
 }
