@@ -6,7 +6,8 @@
   "suites": {
     "default": [
       "basic.suite.js",
-      "protocol.suite.js"
+      "protocol.suite.js",
+      "game.suite.js"
     ]
   }
 }
