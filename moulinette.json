@@ -7,7 +7,8 @@
     "default": [
       "basic.suite.js",
       "protocol.suite.js",
-      "game.suite.js"
+      "game.suite.js",
+      "rigor.suite.js"
     ]
   }
 }
